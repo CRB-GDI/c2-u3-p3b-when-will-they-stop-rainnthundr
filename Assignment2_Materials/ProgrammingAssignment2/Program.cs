@@ -33,6 +33,9 @@ namespace ProgrammingAssignment2
 				// and the comment below. You can of
 				// course add more space between the
 				// comments as needed
+				int value = 0;
+				value = GetValue();
+				Console.Write(value);
 
 
 
