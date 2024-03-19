@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using LinkedLists;
 
 namespace ProgrammingAssignment2
@@ -37,13 +38,12 @@ namespace ProgrammingAssignment2
 				int sum = 5;
 				int value = 0;
 				value = GetValue();
-				Console.WriteLine(count);
+				Console.WriteLine(sum/count);
 				Console.Write(GetValue());
 				while (value != -1)
 				{
 					Console.Write(value++);
 				}
-
 
                 // Don't add or modify any code below
                 // this comment
